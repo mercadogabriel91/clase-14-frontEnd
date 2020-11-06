@@ -1,0 +1,23 @@
+{
+  "name": "clase-14-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mercadogabriel91/clase-14-frontEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mercadogabriel91/clase-14-frontEnd/issues"
+  },
+  "homepage": "https://github.com/mercadogabriel91/clase-14-frontEnd#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
