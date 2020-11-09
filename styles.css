@@ -1,57 +1,106 @@
 html,
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.grad {
   display: flex;
-  background-image: linear-gradient(white, black);
-  height: 100%;
+  flex-direction: column;
+  width: 100%;
   margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .headerBackGround {
   display: flex;
   background-image: url("./src//assets_img/lightning.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
-  /* height: 100%; */
   height: 1152px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.headerContainer {
+  display: flex;
+  /* background-color: yellow; */
+  width: 100%;
+  height: 5%;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.box-2-mod {
+  display: flex;
+  width: 40rem;
+  /* background-color: yellow; */
+  justify-content: space-evenly;
+}
+
+.box-1 {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .title {
   display: flex;
-  color: white;
-  font-size: 35px;
+  /* background-color: yellow; */
   justify-content: center;
-  flex: 1;
-  margin-top: 10%;
-  font-family: Arial, Helvetica, sans-serif;
-  /********************/
-  background: -webkit-linear-gradient(rgb(248, 243, 243), rgb(14, 13, 13));
+  margin-top: 20%;
+  background: -webkit-linear-gradient(rgb(248, 243, 243), rgb(14, 13, 14));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.headerBar {
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* border: solid 3px white; */
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 8%;
+  /* background-color: wheat; */
+}
+
+.content-box-1 {
   display: flex;
   flex-direction: row;
+  margin: 20px;
 }
 
-.dnnr {
+.content-box-image {
+  width: 720px;
+  min-height: 440px;
+  max-height: auto;
+ 
+}
+
+.content-box-2 {
   display: flex;
-  font-size: 20px;
-  color: white;
-  margin-left: 15px;  
+  flex-direction: row-reverse;
+  margin: 20px;
 }
 
-.middletextHeader{
-    display: flex;
-    color: white;    
+.content-box-3 {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.box-title {
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  justify-content: center;
 }
